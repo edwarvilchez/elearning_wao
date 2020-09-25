@@ -1,0 +1,68 @@
+@charset 'utf-8';
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Verdana", "Helvetica", sans-serif, serif;
+}
+
+#header{
+	width: 100%;
+	height: 60px;
+	background: #642b73;  /* fallback for old browsers */
+	/* Chrome 10-25, Safari 5.1-6 */
+	 background: -webkit-linear-gradient(to right, #642b73, #c6426e);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+	background: linear-gradient(to right, #642b73, #c6426e);
+}
+
+#logo{
+	width: 20%;
+	height: 60px;
+	float: left;
+}
+
+#logo h2{
+	text-align: center;
+	line-height: 60px;
+}
+
+#logo h2 a{
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 3px 3px 3px #fff;
+}
+
+#title{
+	width: 60%;
+	height: 60px;
+	float: left;
+}
+
+#title h2{
+	color: #fff;
+	text-shadow: 3px 3px 3px #fff;
+	text-align: center;
+	line-height: 60px;
+}
+
+#link{
+	width: 20%;
+	height: 60px;
+	float: left;
+}
+
+#link h3{
+	text-align: center;
+}
+
+#link h3 a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 60px;
+	display: block;
+}
+
+#link h3:hover{
+	background: #F7971E;
+}
