@@ -8,13 +8,11 @@
 </head>
 <body>
 
-	<!--include the file header-->
-	<?php include("inc/header.php"); ?>
-
-
-	<h2>Test</h2>
-
-
+	<!--files of inc directory-->
+	<?php 
+		include("inc/header.php");
+		include("inc/bodyleft.php");
+	?>
 	
 </body>
 </html>

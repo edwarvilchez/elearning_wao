@@ -5,7 +5,7 @@
 		</h2>
 	</div>
 	<div id="title">
-		<h2>Admin Panel of e-Learning System</h2>
+		<h2>Admin Panel</h2>
 	</div>
 	<div id="link">
 		<h3>
