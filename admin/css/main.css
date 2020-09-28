@@ -97,3 +97,24 @@
 	background: #8fde6e;
 }
 /*bodyleft section*/
+
+/*bodyr section*/
+#bodyr{
+	width: 80%;
+	height: 550px;
+	background: #FFF;
+	float: left;
+	overflow-y: auto; 
+}
+#bodyr h3{
+	margin-bottom: 2%;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	font-size: 12px;
+	background: #FFD266;
+	height: 30px;
+	padding: 0px; 
+}
+/*bodyr section*/
