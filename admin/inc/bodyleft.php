@@ -3,10 +3,10 @@
 	<h3>Categories Managment</h3>
 	<ul>
 		<li>
-			<a href="#">Dashboard</a>
+			<a href="index.php">Dashboard</a>
 		</li>
 		<li>
-			<a href="#">View Course Categories</a>
+			<a href="index.php?category">View Course Categories</a>
 		</li>
 		<li>
 			<a href="#">View Course Sub Categories</a>
@@ -79,3 +79,16 @@
 	</ul>
 	<!--pages managment section-->
 </div>
+
+<!--php section to routing-->
+<?php
+# consulting the $_GET variable to check if exist & is not null
+if(isset($_GET['category'])){
+	include('category.php');
+}	
+
+?>
+
+
+
+<!--php section to routing-->
